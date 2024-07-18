@@ -416,7 +416,11 @@ nav .fa-solid {
     .about-col-1 {
         margin-bottom: 30px;
     }
-
+    
+    .about-col-1 img {
+        width: 100%;
+    }
+    
     .about-col-2 {
         font-size: 14px;
     }
