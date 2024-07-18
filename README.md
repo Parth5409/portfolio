@@ -1,5 +1,3 @@
----
-
 # Parth Ravindra Gaikwad's Portfolio
 
 [Portfolio Link](https://parth5409.github.io/portfolio/)
@@ -22,5 +20,3 @@ I'm Parth Ravindra Gaikwad, a passionate B.Tech student majoring in Computer Sci
 - Follow me on [GitHub](https://github.com/Parth5409).
 
 Feel free to reach out—I'm always up for collaboration, learning, and sharing ideas. Let's build something awesome together! 🚀👩‍💻
-
----
