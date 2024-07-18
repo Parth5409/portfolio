@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/icon1.png">
+    <title>Parth Gaikwad - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/38a35ca74d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- -------- Header -------- -->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./assets/MyLogo.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Parth</span><br>Gaikwad</h1>
+                <span id="element"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------- About -------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>👋 Hi! I’m a second-year B.Tech student who loves coding. Right now, I’m learning how to build
+                        web apps (MERN stack) and solving puzzles with Java. My dream? Creating cool software that makes
+                        life easier. When I’m not coding, I’m probably reading tech blogs or fixing bugs. Let’s code
+                        together! 🚀</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Studying MERN stack development</li>
+                            <li><span>Git &amp; Github</span><br>Can work efficiently with Git &amp; Github</li>
+                            <li><span>Java DSA</span><br>Done DSA using Java.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Glass Slider Effect</span><br>A simple glass slider effect using only HTML and
+                                CSS.
+                            </li>
+                            <li><span>Simon Says Game Using Js</span><br>A simple logic based game made using
+                                JavaScript.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-Ongoing</span><br>B.Tech Computer Science and Engineering.</li>
+                            <li><span>2022-2023</span><br>12th HSC Maharashtra Board.<br>Marks : 80%</li>
+                            <li><span>2020-2021</span><br>10th SSC Maharashtra Board.<br>Marks : 91.4%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------- Portfolio -------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./assets/work-1.png">
+                    <div class="layer">
+                        <h3>Glass Effect Slider</h3>
+                        <p>A simple glass slider effect using only HTML and CSS. Do click on Hamburger Menu.</p>
+                        <a href="https://parth5409.github.io/Glass-Effect-Sidebar/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/game2.jpg">
+                    <div class="layer">
+                        <h3>Simon Says Game</h3>
+                        <p>A simple logic based game made using JavaScript.</p>
+                        <a href="https://parth5409.github.io/Simon-says-Js/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/work-2.png">
+                    <div class="layer">
+                        <h3>Spotify Clone Using CSS only</h3>
+                        <p>A simple design clone of Spotify using only HTML and CSS.</p>
+                        <a href="https://steady-queijadas-eeb490.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- -------- Contact -------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contack-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p class="mtop"><i class="fa-solid fa-paper-plane"></i> parthgaikwad5409@gmail.com</p>
+                    <p class="mtop"><i class="fa-solid fa-square-phone"></i> 9511756709</p>
+                    <div class="social-icons">
+                        <a href="https://x.com/ParthG_09?t=tklUkdtfuOVjxTK8EkGJjQ&s=08" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/parth_gaikwad_09/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/parth-gaikwad-891555285/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contack-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Parth. Made with <i class="fa-solid fa-heart"></i>.</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
